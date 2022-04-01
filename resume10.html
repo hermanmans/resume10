@@ -13,29 +13,31 @@
     <link rel="stylesheet" href="CSS/stylesheet.css">
 </head>
 <body>
+  <div class="jumbotron p-3">
     <header>
-        <!--For Resume 10 class=display-4-->
-    <h1>Herman Mans</h1> <!--Images sourced from resume 6 folder-->
-    <img id="profilepic" src="Images/Herman_Mans.jpg" alt="Herman headshot" width="300px" height="300px">
-    <p>
-    <b>I am a hard working individual who would like to further my knowledge as a developer.</b>
-    </p>
+          <!--For Resume 10 class=display-4-->
+      <h1>Herman Mans</h1> <!--Images sourced from resume 6 folder-->
+      <img id="profilepic" src="Images/Herman_Mans.jpg" alt="Herman headshot" width="300px" height="300px">
+      <p>
+      <p class="h4">I am a hard working individual who would like to further my knowledge as a developer.</p>
+      </p>
     </header>
+  </div>
 
-<div class="navbar-container p-1">
+<div class="navbar-container p-2">
     <div class="row align-items-center">
         <div class="col-md">
             <h1>Menu</h1>
         </div>
     </div>      
     <div class="row align-items-center">
-        <div class="col-md-4">                   
+        <div class="col-md-4 h5">                   
         <p id="link1"><a href="#education">Education</a></p>
         </div>
-        <div class="col-md-4">         
+        <div class="col-md-4 h5">         
         <p id="link2"><a href="#experience">Experience</a></p>
         </div>
-        <div class="col-md-4">  
+        <div class="col-md-4 h5">  
         <p id="link3"><a href="#skills">Skills</a></p>
         </div>  
     </div>
@@ -97,7 +99,7 @@
     </div>
 
     <div class="row">
-      <div class="col">
+      <div class="col-8">
         <div id="skills">
             <h2>Skills</h2>
             <ul>
@@ -116,19 +118,19 @@
         <h3>Contact Details</h3>
         <h3>Cell:+27 65698 8670</h4>
         <h3><Address>Cape Town</Address></h4>
-
+<!--Carousel Choose from 3 pics-->
           <div id="detailsCarousel" class="carousel slide bg-url(/Images/Background5.jpg)" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#detailsCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#detailsCarousel" data-slide-to="1"></li>
               <li data-target="#detailsCarousel" data-slide-to="2"></li>
             </ol>
+<!--Carousel Images and links-->
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <a href="http://linkedin.com/in/herman-schroeder-mans-9402a395">
                   <img src="Images/Linkedin.png" class="linkdn img-fluid my-5"  width="95" height="85" alt="Linkedin Logo">
                 </a>
-
               </div>
               <div class="carousel-item">
                 <a href="http://facebook.com/herman.mans.73">
@@ -141,6 +143,7 @@
                 </a>
               </div>
             </div>
+<!--Carousel Arrow Buttons-->
             <a class="carousel-control-prev" href="#detailsCarousel" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
