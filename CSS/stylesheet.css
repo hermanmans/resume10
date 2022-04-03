@@ -56,11 +56,13 @@ html{border-style: solid;
 }
 
 #profilepic{
+  border-radius: 10px 10px 10px 10px;
   animation-name: profilepic;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
 }
 header{font-size: 20px;
+  border-radius: 10px 10px 10px 10px;
   background-image:url("/Images/Background.jpg"); 
   background-size:cover;
   margin:10px;
