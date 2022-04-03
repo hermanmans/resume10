@@ -76,6 +76,7 @@ header{font-size: 20px;
   text-align: center;
   background-size:cover;
   margin: 10px;
+  border-radius: 10px 10px 10px 10px;
 }
 
  main{
