@@ -43,6 +43,7 @@ a{color:black;}
 }
 h2{
   background-image: url("/Images/Background.jpg");
+  background-size: cover;
   border-radius: 10px 10px 10px 10px;
   padding-left: 10px;
 }
@@ -76,11 +77,6 @@ header{font-size: 20px;
   margin:10px;
 }
 
-#education{
-  text-align: center;
-  border: 1px solid gray;
-  border-radius: 10px 10px 10px 10px;
-}
 .links{text-align: center;
   background-image:url("/Images/Background5.jpg"); 
   background-size:cover;
