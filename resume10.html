@@ -14,13 +14,35 @@
     <link rel="stylesheet" href="CSS/stylesheet.css">
 </head>
 <body>
-    <header>
-  
-    </header>
+<nav class="navbar navbar-expand-lg">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          dropdown-item
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#experience">Work Experience</a>
+          <a class="dropdown-item" href="#projects">Projects</a>
+          <a class="dropdown-item" href="#education">Education</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<header>
+  <h1 class="display-3 m-5">Herman Mans</h1>
+</header>
+
 <div class="jumbotron">
       <div class="row align-items-center">
         <div class="col-3">
-          <h1>Herman Mans</h1>
           <img class="profilepic" src="Images/Herman_Mans.jpg" alt="Herman headshot" width="300px" height="300px">
         </div>
         <div class="col-4">
@@ -28,11 +50,6 @@
         </div>
       </div>
 </div>
-
-
-
-
-
 
 <div class="content-container p-2">
     <div class="row align-items-center">
@@ -125,46 +142,47 @@
     </main>
 
 <footer class="links"> 
-        <h3>Contact Details</h3>
-        <h3>Cell:+27 65698 8670</h4>
-        <h3><Address>Cape Town</Address></h4>
+    <h3>Contact Details</h3>
+    <h3>Cell:+27 65698 8670</h4>
+    <h3><Address>Cape Town</Address></h4>
 <!--Carousel Choose from 3 pics-->
-          <div id="detailsCarousel" class="carousel slide bg-url(/Images/Background5.jpg) p-3" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#detailsCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#detailsCarousel" data-slide-to="1"></li>
-              <li data-target="#detailsCarousel" data-slide-to="2"></li>
-            </ol>
+      <div id="detailsCarousel" class="carousel slide bg-url(/Images/Background5.jpg) p-3" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#detailsCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#detailsCarousel" data-slide-to="1"></li>
+          <li data-target="#detailsCarousel" data-slide-to="2"></li>
+        </ol>
 <!--Carousel Images and links-->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="http://linkedin.com/in/herman-schroeder-mans-9402a395">
-                  <img src="Images/Linkedin.png" class="linkdn my-3"  width="95" height="85" alt="Linkedin Logo">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a href="http://facebook.com/herman.mans.73">
-                  <img src="Images/Facebook.jpg" class="fb my-3"  width="95" height="85" alt="Facebook Logo" >
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a href="mailto:hsmans0601@gmail.com">
-                  <img src="Images/Gmail.png" class="gmail my-3"  width="95" height="85" alt="Gmail Logo">
-                  
-                </a>
-              </div>
-            </div>
-<!--Carousel Arrow Buttons-->
-            <a class="carousel-control-prev" href="#detailsCarousel" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#detailsCarousel" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="http://linkedin.com/in/herman-schroeder-mans-9402a395">
+              <img src="Images/Linkedin.png" class="linkdn my-3"  width="95" height="85" alt="Linkedin Logo">
             </a>
           </div>
+          <div class="carousel-item">
+            <a href="http://facebook.com/herman.mans.73">
+              <img src="Images/Facebook.jpg" class="fb my-3"  width="95" height="85" alt="Facebook Logo" >
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="mailto:hsmans0601@gmail.com">
+              <img src="Images/Gmail.png" class="gmail my-3"  width="95" height="85" alt="Gmail Logo">
+              
+            </a>
+          </div>
+        </div>
+<!--Carousel Arrow Buttons-->
+        <a class="carousel-control-prev" href="#detailsCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#detailsCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 </footer>
+    
 <!--Three bootstrap related javascript files linked-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
