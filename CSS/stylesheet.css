@@ -3,30 +3,7 @@
 ul li{padding: 3px;
 }
 a{color:black;}
-h3
-#link1,#link2,#link3{border-radius: 10px 10px 10px 10px;
-  padding: 4px;
-  transform: rotate(0deg);
-}
 
-#link1:hover{border-radius: 10px 10px 10px 10px;
-  padding: 4px;
-  background: white;
-  transform: translateX(10px);
-  transition-duration: 1s;
-}
-#link2:hover{border-radius: 10px 10px 10px 10px;
-  padding: 4px;
-  background: white;
-  transform: translateX(10px);
-  transition-duration: 1s;
-}
-#link3:hover{border-radius: 10px 10px 10px 10px;
-  padding: 4px;
-  background: white;
-  transform: translateX(10px);
-  transition-duration: 1s;
-}
 .linkdn{border-radius: 10px 10px 10px 10px;
 }
 .linkdn:hover{border-radius: 10px 10px 10px 10px;
@@ -65,12 +42,20 @@ header{font-size: 20px;
 .jumbotron{
   background-image: url("/Images/Board.jpg");
 }
-.skills{text-align: center;
-  margin:10px;
+@keyframes profilepic {
+  0%{transform: translateX(-200px);}
 }
 .profilepic{
   border-radius: 50%;
+  animation-name: profilepic;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
+
+.skills{text-align: center;
+  margin:10px;
+}
+
  main{
   border:3px solid gray;
   margin:10px;
@@ -81,6 +66,14 @@ header{font-size: 20px;
   background-size: cover;
   margin: auto;
 }
+.education{
+  display: inline-block;
+  border: 1px dotted black;
+  text-align: center;
+  margin:19px;
+  width: 30%;
+  height: 200px;
+}
 .hobbies{
   border:3px solid gray;
   margin:10px;
@@ -90,40 +83,19 @@ header{font-size: 20px;
   margin:10px;
   border:3px solid gray
 }
-.education{
-  display: inline-block;
-  border: 1px dotted black;
-  text-align: center;
-  margin:19px;
-  width: 30%;
-  height: 200px;
-}
-.arrows{
-  color: black;
-}
 
 .icons{
   display: inline-block;
 }
-@media only screen and (max-width:900px) {
-  .education{
-  display: inline-block;
-  border: 1px dotted black;
-  text-align:center;
-  width: 45%;
-  height: 200px;
-  }
-  #bottom{
-   width:90%;
-  }
-}
-
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:1200px) {
   .education{
   display: inline-block;
   border: 1px dotted black;
   text-align:center;
   width: 90%;
   height: 200px;
+  }
+  #bottom{
+   width:90%;
   }
 }
