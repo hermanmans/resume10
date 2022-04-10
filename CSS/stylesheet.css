@@ -1,8 +1,9 @@
 
 *{box-sizing: border-box;}
-ul li{padding: 3px;}
+ul li{padding: 3px;
+}
 a{color:black;}
-
+h3
 #link1,#link2,#link3{border-radius: 10px 10px 10px 10px;
   padding: 4px;
   transform: rotate(0deg);
@@ -41,10 +42,9 @@ a{color:black;}
 .gmail:hover{border-radius: 10px 10px 10px 10px;
   transform: scale(1.3);
 }
-h2{
+.education{
   background-image: url("/Images/Background.jpg");
   background-size: cover;
-  border-radius: 10px 10px 10px 10px;
   padding-left: 10px;
 }
 html{border:5px solid gray; 
@@ -56,14 +56,17 @@ html{border:5px solid gray;
   background-size:cover;
 }
 header{font-size: 20px;
-  height: 50rem;
+  height: 30rem;
   text-align: left;
-  background-image:url("/Images/Background_drape.jpg");
+  background-image:url("/Images/CPT.jpg");
   background-size:cover;
   background-attachment: fixed;
 }
 .jumbotron{
   background-image: url("/Images/Board.jpg");
+}
+.skills{text-align: center;
+  margin:10px;
 }
 .profilepic{
   border-radius: 50%;
@@ -72,18 +75,55 @@ header{font-size: 20px;
   border:3px solid gray;
   margin:10px;
 }
-.project{
+
+.first_section{
+  background-image:url("/Images/Background.jpg");
+  background-size: cover;
+  margin: auto;
+}
+.hobbies{
   border:3px solid gray;
   margin:10px;
 }
 
 .links{text-align: center;
-  background-image:url("/Images/Background5.jpg"); 
-  background-size:cover;
   margin:10px;
   border:3px solid gray
 }
+.education{
+  display: inline-block;
+  border: 1px dotted black;
+  text-align: center;
+  margin:19px;
+  width: 30%;
+  height: 200px;
+}
+.arrows{
+  color: black;
+}
 
+.icons{
+  display: inline-block;
+}
+@media only screen and (max-width:900px) {
+  .education{
+  display: inline-block;
+  border: 1px dotted black;
+  text-align:center;
+  width: 45%;
+  height: 200px;
+  }
+  #bottom{
+   width:90%;
+  }
+}
 
-
-
+@media only screen and (max-width:650px) {
+  .education{
+  display: inline-block;
+  border: 1px dotted black;
+  text-align:center;
+  width: 90%;
+  height: 200px;
+  }
+}

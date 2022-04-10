@@ -27,17 +27,17 @@
           <a class="dropdown-item" href="#education">Education</a>
         </div>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
-      </li>
+        <a class="nav-link" href="#contact"><i class="fa-solid fa-mobile-screen pt-2 pl-3"></i></a>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
 </nav>
 
-<header class="m-1">
-  <h1 class="display-3">Herman Mans</h1>
+<header>
+  <h1 class="display-4 text-center p-3">Herman Mans</h1>
+  
+  
 </header>
 
 <div class="jumbotron">
@@ -51,150 +51,170 @@
       </div>
 </div>
 
-<div class="content-container p-2">
-    <div class="row align-items-center">
-        <div class="col-md">
-            <h1>Menu</h1>
+<div class="skills bg-info"> 
+  <h3>Skills</h3>
+<!--Carousel Choose from 3 pics-->
+    <div id="skills_carousel" class="carousel slide p-3" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#skills_carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#skills_carousel" data-slide-to="1"></li>
+        <li data-target="#skills_carousel" data-slide-to="2"></li>
+      </ol>
+<!--Carousel Images and links-->
+      <div class="carousel-inner pb-5">
+        <div class="carousel-item active">
+          <h5 class="p-2">Critical Thinking</h5>
+          <i class="fa-solid fa-brain fa-2xl"></i>
         </div>
-    </div>      
-    <div class="row align-items-center">
-        <div class="col-sm-4 h5">                   
-        <p id="link1"><a href="#education">Education</a></p>
+        <div class="carousel-item">
+          <h5 class="p-2">Hard Working</h5>
+          <i class="fa-solid fa-business-time fa-2xl"></i>
         </div>
-        <div class="col-sm-4 h5">         
-        <p id="link2"><a href="#experience">Experience</a></p>
+        <div class="carousel-item">
+          <h5 class="p-2">Problem Solving</h5>
+          <i class="fa-solid fa-screwdriver-wrench fa-2xl"></i>
         </div>
-        <div class="col-sm-4 h5">  
-        <p id="link3"><a href="#skills">Skills</a></p>
-        </div>  
+      </div>
+<!--Carousel Arrow Buttons-->
+      <a class="carousel-control-prev" href="#skills_carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#skills_carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-</div>
-    
-    <main> <!--Main section that contains all previous work experience-->
-    <h2 class="text-center">Experience</h2>  
-    <div class="row text-center"> 
-      <div class="col-md-4">
-        <div id="experience">    
-            
-                <h3>Junior Operations Manager</h3>
-                    <p>
-                    <ul>
-                        <li>Coordinate routing for cleaning teams across South Africa</li>
-                        <li>Record,analyze and present key information to supervisors and clientele</li>
-                        <li>Invoice all ATM related maintenance and installations</li>
-                    </ul>
-                    </p>
-        </div>
-      </div>
-      <div class="col-md-4">                    
-                <h3>Mine Planning Engineer</h3>
-                    <p>
-                    <ul>
-                        <li>Process - Large quantities of supporting geological data-sets are received and processed 
-                            to increase the confidence of the mine design</li>
-                        <li>Plan - Working directly with the operations director, various mining methods are scrutinized 
-                            and weighed-up for the most efficient and cost-effective solution.</li>
-                        <li>Design/Simulation - The processed information is represented in a mining simulation to run 
-                            multiple iterations. A final mine model is selected to represent an optimised result.</li>
-                        <li>Tender - Produce a project tender document/agreement with various inputs from the project team.  </li>
-                        <li>Management - Manage and report on the project managers mine production timeline and performance, 
-                            manage and report on the administrators' monthly diesel consumption sheet and utilisation report.</li>
-                        <li>Other responsibilities - Visually investigate possible mining opportunities using Planet GIS, 
-                            Google earth and data sets of geological borehole information.</li>
-                    </ul>
-                    </p>
-      </div>
-      <div class="col-md-4">   
-                <h3>English Teacher Abroad</h3>
-                    <ul>
-                        <li>Company: APAX English</li>
-                        <li> English Educator for ages 7 to 18</li>
-                    </ul>
-                    </p> 
-      </div>
-    </div>
-        <!--Row 1:Column2: Education-->
-    <div class="row"></div>
-      <div class="col-8">
-        <div id="education">
-            <h2>Education</h2>
-            <h6>Code Space Academy: Full Stack Developer at <a href="http://codespace.co.za/" target="_blank">CodeSpace</a></h6>
-                <p>Introduction to Web: Introduction to HTML Concepts and CSS styling</p>               
-            <h6> Bachelors Degree:Mining Engineering</h6>
-                    <p>Duration: 02/2012 to 12/2017</p>
-                    <p>Institution: University of Pretoria</p>
-            <h6>Secondary Education:Matric Certificate</h6>
-                    <p> Duration: 01/2007 to 12/2011</p>
-                    <p>Institution: Die Hoërskool Menlopark</p>     
-        </div>
-      </div>
-    </div>
+  </div>
 
-    <div class="row align-items-center">
-      <div class="col-8">
-        <div id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Problem solving</li>
-                <li>Hard Worker</li>
-                <li>Creative Thinker</li>
-                <li>Diligent</li>
-                <li>Eager learner</li>
-            </ul>
+    <main> <!--Main section that contains all previous work experience-->
+    <div class="first_section p-2">
+      <h2 class="text-center" id="experience">Experience</h2> 
+      <div class="row">
+        <div class="col-md-6">
+                  <h3>Junior Operations Manager</h3>
+                      <p>
+                      <ul>
+                          <li>Coordinate routing for cleaning teams across South Africa</li>
+                          <li>Record,analyze and present key information to supervisors and clientele</li>
+                          <li>Invoice all ATM related maintenance and installations</li>
+                      </ul>
+                      </p>
+
+                  <h3>Mine Planning Engineer</h3>
+                      <p>
+                      <ul>
+                          <li>Process - Large quantities of supporting geological data-sets are received and processed 
+                              to increase the confidence of the mine design</li>
+                          <li>Plan - Working directly with the operations director, various mining methods are scrutinized 
+                              and weighed-up for the most efficient and cost-effective solution.</li>
+                          <li>Design/Simulation - The processed information is represented in a mining simulation to run 
+                              multiple iterations. A final mine model is selected to represent an optimised result.</li>
+                          <li>Tender - Produce a project tender document/agreement with various inputs from the project team.  </li>
+                          <li>Management - Manage and report on the project managers mine production timeline and performance, 
+                              manage and report on the administrators' monthly diesel consumption sheet and utilisation report.</li>
+                          <li>Other responsibilities - Visually investigate possible mining opportunities using Planet GIS, 
+                              Google earth and data sets of geological borehole information.</li>
+                      </ul>
+                      </p>
+        </div>
+        <div class="col-md-6">   
+                  <h3>English Teacher Abroad</h3>
+                      <ul>
+                          <li>Company: APAX English</li>
+                          <li> English Educator for ages 7 to 18</li>
+                      </ul>
+                      </p> 
         </div>
       </div>
-    </div>
+      </div>
+      <div class="second_section align-items-center">
+          <!--Row 1:Column2: Education-->
+          <h2 class="m-2 text-center" id="education">Education</h2>
+          <p>
+            <div class="education">
+              <i class="fa-solid fa-laptop-code p-3"></i>
+              <h6>Code Space Academy: Full Stack Developer at <a href="http://codespace.co.za/" target="_blank">CodeSpace</a></h6>
+                <p>Introduction to Web: Introduction to HTML Concepts and CSS styling</p>
+            </div>               
+            <div class="education">
+              <i class="fa-solid fa-building-columns p-3"></i>
+              <h6> Bachelors Degree:Mining Engineering</h6>
+                <p>Duration: 02/2012 to 12/2017</p>
+                <p>Institution: University of Pretoria</p>
+            </div>
+            <div class="education" id="bottom">
+              <i class="fa-solid fa-school p-3"></i>
+              <h6>Secondary Education:Matric Certificate</h6>
+                <p> Duration: 01/2007 to 12/2011</p>
+                <p>Institution: Die Hoërskool Menlopark</p>
+            </div>
+            </p>
+    </div>     
   </main>
 
-  <div class="project">
-  <div class="project-container p-2">
-      <div class="row">
-        <!--Row 1: Column1:Experience and skills.-->
-              <div class="col">
-                <div>Heloo</div>
+<div class="hobbies">
+<div class="hobbies-container p-2">
+  <h2 class="m-2 text-center">Hobbies and Interests</h2>
+    <div class="row">
+      <!--Row 1: Column1:Experience and skills.-->
+            <div class="col d-flex align-items-center">
+              <!--Carousel Choose from 3 pics-->
+              <div id="links_carousel" class="carousel slide bg-url(/Images/Background5.jpg) p-3" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#links_carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#links_carousel" data-slide-to="1"></li>
+                </ol>
+              <!--Carousel Images and links-->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <picture>
+                      <source media="(max-width:650px)" srcset="Images/Philippines_optionB.jpeg">
+                      <source media="(max-width:1400px)" srcset="Images/Philippines.jpeg">
+                      <img src="/Images/Philippines.jpeg" class="img-fluid" alt="Philippines Sunset">
+                    </picture> 
+                  </div>
+                  <div class="carousel-item">
+                    <picture>
+                      <source media="(max-width:650px)" srcset="Images/Hiking_optionB.jpeg">
+                      <source media="(max-width:1400px)" srcset="Images/Hiking.jpeg">
+                      <img src="/Images/Hiking.jpeg" class="img-fluid" alt="Hiking">
+                    </picture> 
+                  </div>
+                </div>
+              <!--Carousel Arrow Buttons-->
+                <a class="carousel-control-prev" href="#links_carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#links_carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
-      </div>
-  </div>
-  </div>
+            </div>
+    </div>
+</div>
+</div>
 
-<footer class="links"> 
-    <h3>Contact Details</h3>
+<footer class="links bg-info"> 
+    <h3 id="contact">Contact Details</h3>
     <h3>Cell:+27 65698 8670</h4>
     <h3><Address>Cape Town</Address></h4>
-<!--Carousel Choose from 3 pics-->
-      <div id="detailsCarousel" class="carousel slide bg-url(/Images/Background5.jpg) p-3" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#detailsCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#detailsCarousel" data-slide-to="1"></li>
-          <li data-target="#detailsCarousel" data-slide-to="2"></li>
-        </ol>
-<!--Carousel Images and links-->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="http://linkedin.com/in/herman-schroeder-mans-9402a395 " target="_blank">
-              <img src="Images/Linkedin.png" class="linkdn my-3"  width="95" height="85" alt="Linkedin Logo">
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="http://facebook.com/herman.mans.73" target="_blank">
-              <img src="Images/Facebook.jpg" class="fb my-3"  width="95" height="85" alt="Facebook Logo" >
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="mailto:hsmans0601@gmail.com" target="_blank">
-              <img src="Images/Gmail.png" class="gmail my-3"  width="95" height="85" alt="Gmail Logo">
-              
-            </a>
-          </div>
-        </div>
-<!--Carousel Arrow Buttons-->
-        <a class="carousel-control-prev" href="#detailsCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+      <div class="icons">
+        <a href="http://linkedin.com/in/herman-schroeder-mans-9402a395 " target="_blank">
+          <img src="Images/Linkedin.png" class="linkdn my-3"  width="95" height="85" alt="Linkedin Logo">
         </a>
-        <a class="carousel-control-next" href="#detailsCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+      </div>
+      <div class="icons">
+        <a href="http://facebook.com/herman.mans.73" target="_blank">
+          <img src="Images/Facebook.jpg" class="fb my-3"  width="95" height="85" alt="Facebook Logo" >
+        </a>
+      </div>
+      <div class="icons">
+        <a href="mailto:hsmans0601@gmail.com" target="_blank">
+          <img src="Images/Gmail.png" class="gmail my-3"  width="95" height="85" alt="Gmail Logo">
+          
         </a>
       </div>
 </footer>
